@@ -14,7 +14,6 @@ body{
     position: absolute;
     left: 33px;
     top: 3px;
-border: solid red;
 }
 /* WE CAN CHANGE THE COLOR OF THE IMAGE USING INVERT FUNCTION  */
 .left img{
@@ -24,14 +23,12 @@ border: solid red;
     display: block;
     width: 43%;
     margin: 20px auto;
-    border: 2px solid rgb(3, 243, 19);
 }
 .right{
     position: absolute;
     right: 29px;
     top: 32px;
     display:inline-block;
-    border: solid rgb(203, 232, 19);
 }
 .btn{
     margin: 0px 23px;
