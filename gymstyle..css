@@ -1,0 +1,77 @@
+/* Always give border to a div or an element to make it simple for design so you are aware of the margin and padding basically it will make box-sizing easy */
+
+body{
+    margin: 0px;
+    padding:0px;
+    /** url is a function in wchih we can url of any img and it will come in background **/
+    background: url('gymtr.jpg');
+    color: white;
+    font-family: 'Baloo Bhai';
+}
+
+.left{
+    display:inline-block;
+    position: absolute;
+    left: 33px;
+    top: 3px;
+border: solid red;
+}
+/* WE CAN CHANGE THE COLOR OF THE IMAGE USING INVERT FUNCTION  */
+.left img{
+    width: 70px;
+}
+.mid{
+    display: block;
+    width: 43%;
+    margin: 20px auto;
+    border: 2px solid rgb(3, 243, 19);
+}
+.right{
+    position: absolute;
+    right: 29px;
+    top: 32px;
+    display:inline-block;
+    border: solid rgb(203, 232, 19);
+}
+.btn{
+    margin: 0px 23px;
+    background-color: black;
+    color: white;
+    border:solid 1px  rgb(240, 34, 206);
+    padding: 3px 7px;
+    border: solid 2px  grey;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Baloo bhai';
+}
+.btn:hover{
+    background-color: rgb(99, 98, 98);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+    
+}
+.navbar li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 23px 23px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(159, 157, 157);
+    
+}
+.container{
+    border: solid 2px white;
+    margin:111px 68px;
+    padding:23px 29px ;
+    width: 33%;
+    border-radius: 10px;
+}
+/*  Be specific while selecting elements for styling so that it wont create problem later  */
